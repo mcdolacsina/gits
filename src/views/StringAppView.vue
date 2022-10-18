@@ -1,34 +1,15 @@
 <template>
 
- <v-card
-    class="ma-15"
-    max-width="544"
-    color="primary"
- >
-  <v-card-title> String Manipulator </v-card-title>
+<h1>About Programming</h1>
+A programming language is any set of rules that converts strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output.[citation needed] Programming languages are one kind of computer language, and are used in computer programming to implement algorithms.
 
-   <v-text-field label="Enter a String" v-model="stringInput"></v-text-field>
+Most programming languages consist of instructions for computers. There are programmable machines that use a set of specific instructions, rather than general programming languages. Prior to the invention of computers, programs were used to direct the behavior of machines such as Jacquard looms, music boxes and player pianos.[1]
 
-   <v-card-actions  >
-   <v-btn @click="doCountVowel" >
-        Count Vowel
-   </v-btn>
-   </v-card-actions>
+Thousands of different programming languages have been created, and more are being created every year. Many programming languages are written in an imperative form (i.e., as a sequence of operations to perform) while other languages use the declarative form (i.e. the desired result is specified, not how to achieve it).
 
-   {{vowelCount}}
- </v-card>  
+The description of a programming language is usually split into the two components of syntax (form) and semantics (meaning), which are usually defined by a formal language. Some languages are defined by a specification document (for example, the C programming language is specified by an ISO Standard) while other languages (such as Perl) have a dominant implementation that is treated as a reference. Some languages have both, with the basic language defined by a standard and extensions taken from the dominant implementation being common.
+
+Programming language theory is a subfield of computer science that deals with the design, implementation, analysis, characterization, and classification of programming languages.
 
 </template>
 
-<script setup>
-import {ref} from 'vue'
-
-const stringInput = ref('')
-const vowelCount = ref(0)
-
-function doCountVowel () {
-     vowelCount.value = stringInput.value.match(/[aeiou]/gi).length;
-     return vowelCount.value; 
-}
-
-</script>

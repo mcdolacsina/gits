@@ -1,28 +1,5 @@
-
-
 <template>
-<v-container fluid>
-  <v-text-field label="First Input" v-model.number="fNumber"></v-text-field>
-  <v-text-field label="Second Input" v-model.number="sNumber"></v-text-field>
-
-  <v-btn @click="doSum">Result</v-btn>
-  
-  {{sum}}
-
-</v-container>
+As a student, I learned a lot in TIP. I can now manage to debug different errors. I can now manage to do some of back end and front end. I can now manage to code some of the activities and projects.
  </template>
-
-<script setup>
-  import {ref} from 'vue'
-
-  const fNumber=ref(0)
-  const sNumber=ref(0)
-  const sum=ref(0)
-
-  function doSum(){
-    sum.value = fNumber.value + sNumber.value
-    return sum.value
-  }
-</script>
 
 

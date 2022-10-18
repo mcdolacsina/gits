@@ -60,11 +60,16 @@
   const drawer = ref(false)
 
   const  items =  ref([
-           { title: 'Dashboard', icon: 'mdi-view-dashboard', path: '/' },
-           { title: 'Math', icon: 'mdi-plus-one', path: '/basicMath' },
-           { title: 'String App', icon: 'mdi-help-box', path: '/stringApp'},
-           { title: 'Axios Demo', icon: 'mdi-help-box', path: '/axiosDemo'},
-           
+           { title: 'Personal Life', icon: 'mdi-view-dashboard', path: '/stringPersonal' },
+           { title: 'Programming Skills', icon: 'mdi-plus-one', path: '/basicMath' },
+           { title: 'About Programming', icon: 'mdi-help-box', path: '/stringApp'},
+           { title: 'About TIP', icon: 'mdi-help-box', path: '/stringTip'},
+           { title: 'About Vuetify', icon: 'mdi-help-box', path: '/stringVuetify'},
+           { title: 'About API', icon: 'mdi-help-box', path: '/stringApi'},
+           { title: 'String Manipulation', icon: 'mdi-help-box', path: '/stringManipulation'},
+           { title: 'Calculator', icon: 'mdi-help-box', path: '/stringCalculator'},
+           { title: 'Compute', icon: 'mdi-help-box', path: '/stringCompute'},
+           { title: 'AxiosDemo', icon: 'mdi-help-box', path: '/stringAxios'},
         ])
 
  function toggleDrawer(){
