@@ -7,13 +7,13 @@
     <h3>Select a Shape of your Choice: </h3>
   <br>
       <h2>1. Rectangle</h2>
-    <img src = "src/assets/Rectangle.png">
+    
       <h2>2. Square</h2>
-    <img src = "src/assets/Square.png">
+   
       <h2>3. Circle</h2>
-    <img src = "src/assets/Circle.jpg" style="width:20%">
+    
       <h2>4. Triangle</h2>
-    <img src = "src/assets/Triangle.png" style="width:20%">
+  
   <br><br>
 
   <v-text-field type="number" v-model.number="Choice" label="Enter your Choice:"></v-text-field>
